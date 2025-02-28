@@ -6,9 +6,29 @@ body {
 a {
     text-decoration: none;
     color: var(--light-text);
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+a:hover {
+    color: rgb(233, 159, 255);
 }
 main {
     margin: 0 auto;
+}
+.btn__all {
+    transition: transform 0.3s ease; 
+
+}
+.btn__all:hover {
+    transform: scale(1.05); /* Увеличение на 5% */
+  }
+
+.text-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 119%;
+    letter-spacing: 0em;
+    color: var(--light-text);
 }
 /* header */
 
@@ -30,30 +50,12 @@ main {
     width: 186px;
     height: 58px;
 }
-.header__logo-item {
-
-}
-
-.header__nav {
-    
-}
-
 .header__menu {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.header__menu-item {
-    
-}
-
-.header__link {
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-.header__link:hover {
-    color: darkblue;
-}
 .header__btn {
     display: flex;
     justify-content: center;
@@ -65,13 +67,12 @@ main {
 
 /* main hero */
 
-.hero {
-}
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--font-family);
+    color: var(--light-text);
 }
 
 .hero__title {
@@ -223,10 +224,6 @@ main {
     color: var(--light-text);
 }
 
-.content__bottom-position {
-
-}
-
 .text__bottom {
     padding-top: 10px;
     font-family: var(--font-family);
@@ -243,14 +240,6 @@ main {
     padding-top: 100px;
 }
 
-.container {
-
-}
-
-.content__work {
-
-}
-
 .text__content {
     padding-top: 60px;
     display: flex;
@@ -260,22 +249,19 @@ main {
 
 .work__title {
     padding-bottom: 10px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 52px;
     line-height: 119%;
     letter-spacing: 0em;
-    color: var(--light-text);
+    
 }
 
 .work__text {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--light-text);
 }
 
 .cards__content {
@@ -328,12 +314,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 17px;
     line-height: 147%;
     letter-spacing: 0.01em;
-    color: var(--light-text);
     width: 152px;
     height: 52px;
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
@@ -354,11 +338,6 @@ main {
     justify-content: center;
    
 }
-
-.image-right {
-    
-}
-
 .content__card__right {
     border: 1px solid #d3d3d3;
     border-radius: 10px;
@@ -384,23 +363,21 @@ main {
 }
 
 .gallery__title {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 52px;
     line-height: 119%;
     letter-spacing: 0em;
-    color: var(--light-text);
+
 }
 
 .gallery__text {
     padding-top: 10px;
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: var(--light-text);
+
 }
 
 .cards__gallery-top {
@@ -408,37 +385,9 @@ main {
     align-items: center;
 }
 
-.card__items-one {
-
-}
-
-.card__items-two {
-
-}
-
-.card__items-three {
-
-}
-
-.card__items-four {
-
-}
-
 .cards__gallery-bottom {
     display: flex;
     align-items: center;
-}
-
-.card__bottom__items-one {
-
-}
-
-.card__bottom__items-two {
-
-}
-
-.card__bottom__items-three {
-
 }
 
 .gallery__btn {
@@ -449,30 +398,16 @@ main {
     width: 154px;
     height: 52px;
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 17px;
     line-height: 147%;
     letter-spacing: 0.01em;
-    color: var(--light-text);
     margin-bottom: 50px;
 }
 /* Partners */
-
-.Partners {
-    
-
-}
-
-.container {
-}
-
 .partners__text {
     display: grid;
     justify-items: center;
     max-width: 560px;
-    font-family: var(--font-family);
-    color: var(--light-text);
 }
 
 .partners__text-title {
@@ -513,4 +448,134 @@ main {
 .partners-btn {
     margin-top: 50px;
     margin-bottom: 50px ;
+}
+
+
+/* testimonials */
+.testi_cards__container {
+    display: flex;
+}
+.testi__title-text {
+    padding-bottom: 50px;
+}
+.testi_cards__block {
+    margin: 10px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+    height: 328px;
+}
+
+.testi_cards__position-top {
+    display: flex;
+    max-width: 190px;
+    gap: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.img__cards-faceone {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+     
+}
+.testi_cards__position-bottom {
+    line-height: 150%;
+}
+
+.text__cards-testi {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    max-width: 307px;
+}
+/* cta */
+
+.cta {
+    margin:80px 0;
+
+}
+.container__content-cta {
+    display: flex;
+    border-radius: 33px;
+    width: 1219px;
+    height: 370px;
+    box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+    background: #343434;
+}
+.cta__left-blog {
+    display: grid;
+    padding-left: 95px;
+    padding-top: 80px;
+    padding-right: 65px;
+}
+
+.cta__text-blog {
+    max-width: 472px;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 119%;
+    letter-spacing: 0em;
+    
+}
+
+.cta__btn-blog {
+
+}
+
+.gallery__btn {
+
+}
+
+.cta__right-blog {
+    padding: 36px 0;
+    width: 589px;
+    height: 298px;
+}
+
+/* footer */
+.footer__content-left {
+    display: flex;
+    gap: 75px;
+    line-height: 200%;
+}
+
+.list__another {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    padding-bottom: 40px;
+}
+
+.footer__container {
+    display: flex;
+    max-width: 1013px;
+}
+
+.footer__content-right {
+    padding-left: 200px;
+}
+
+.row__block {
+    display: flex;
+    align-items: center;
+}
+
+.row__block-centre {
+    padding-top: 20px;
+}
+
+.row__block-bottom {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.img__footer {
+    padding-right: 10px;
 }
