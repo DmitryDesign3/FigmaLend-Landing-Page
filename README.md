@@ -6,6 +6,5 @@
 
 ## 🚀 Site
 
-1. **Click**
-   ```bash
-         https://dmitrydesign3.github.io/figmaland/
+1. **[Click](https://dmitrydesign3.github.io/figmaland/)**
+ 
