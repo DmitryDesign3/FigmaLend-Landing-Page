@@ -8,4 +8,3 @@
 
 1. **https://dmitrydesign3.github.io/figmaland/**
    ```bash
-   git clone https://dmitrydesign3.github.io/figmaland/
