@@ -10,6 +10,8 @@ Licensed under CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 **[Click](https://dmitrydesign3.github.io/FigmaLend-Landing-Page-/)**
 
 Designer > Captain Design PRO
+
 Developer > Dmitry DS
+
 LICENSES CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
